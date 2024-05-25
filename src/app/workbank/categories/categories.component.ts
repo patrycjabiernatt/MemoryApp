@@ -20,4 +20,8 @@ export class CategoriesComponent {
     this.newCategoryName = '';
     this.showNewCategoryInput = false;
   }
+
+  removeCategory(index: number) {
+    this.categories.splice(index, 1);
+  }
 }
