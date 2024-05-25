@@ -10,4 +10,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'memory-front-client';
+  sum:number = 2+2;
 }
